@@ -1,0 +1,62 @@
+body{
+    overflow-x: hidden;
+}
+#nav-wrapper{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#navbarNav{
+    display: flex;
+    align-self: flex-end;
+    justify-content: flex-end;
+}
+#nav-ul{
+    display: flex;
+    
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#carouselExampleIndicators{
+    border-top: 2px solid white;
+}
+#section-1-block-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonial-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.testimonial-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.testimonial-wrapper .bottom-quote{
+    display: flex;
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+.section-3-hr{
+    margin: auto;
+    height: 6px;
+    width: 30px;
+}
+.section-3-partner-logo{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.section-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
