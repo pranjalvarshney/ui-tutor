@@ -14,42 +14,46 @@
   </head>
   <body>
     <nav class="navbar navbar-light bg-primary navbar-expand-md">
-      <div class="container" id="nav-wrapper">
-        <a class="navbar-brand"><img src="./images/logo.png" /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav text-center" id="nav-ul">
-            <li class="nav-item">
-              <a class="nav-link text-white active" aria-current="page" href="#"
-                ><img src="./images/home-icon.png"
-              /></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">WHY</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">COURSES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">CAREER</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">CONTACT</a>
-            </li>
-          </ul>
+      <div class="container  d-flex justify-content-between">
+        <div class="container">
+          <a class="navbar-brand"><img src="./images/logo.png" /></a>
+        </div>
+        <div class="container d-flex flex-row justify-content-end align-items-center align-self-end">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav d-flex justify-content-end align-items-end">
+              <li class="nav-item">
+                <a class="nav-link text-white active" aria-current="page" href="#"
+                  ><img src="./images/home-icon.png"
+                /></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">WHY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">COURSES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">CAREER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">CONTACT</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -184,21 +188,33 @@
       <div class="container my-5 text-center text-primary">
         <h2>Our Partners</h2>
         <div class="section-3-hr bg-primary"></div>
-        <div class="section-3-partner-logo my-5 ">
-            <img src="./images/logo-icon1.png"/>
-            <img src="./images/logo-icon2.png"/>
-            <img src="./images/logo-icon3.png"/>
-            <img src="./images/logo-icon1.png"/>
-            <img src="./images/logo-icon2.png"/>
-            <img src="./images/logo-icon3.png"/>
+        <div class="row section-3-partner-logo my-5">
+          <div class="col-xs-6 col-md-2">
+            <img src="./images/logo-icon1.png" />
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <img src="./images/logo-icon2.png" />
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <img src="./images/logo-icon3.png" />
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <img src="./images/logo-icon1.png" />
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <img src="./images/logo-icon2.png" />
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <img src="./images/logo-icon3.png" />
+          </div>
         </div>
       </div>
     </div>
     <div class="section-footer bg-primary text-white py-3">
-        <div class="container section-footer">
-            <h6>Copyright reserved by company @ 2016</h6>
-            <h6>Co-powered by</h6>
-        </div>
+      <div class="container section-footer">
+        <h6>Copyright reserved by company @ 2016</h6>
+        <h6>Co-powered by</h6>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"

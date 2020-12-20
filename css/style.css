@@ -1,24 +1,13 @@
 body{
     overflow-x: hidden;
 }
-#nav-wrapper{
+.nav-wrapper{
     position: relative;
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-}
-#navbarNav{
-    display: flex;
-    align-self: flex-end;
-    justify-content: flex-end;
-}
-#nav-ul{
-    display: flex;
-    
-    align-items: flex-end;
-    justify-content: flex-end;
 }
 #carouselExampleIndicators{
     border-top: 2px solid white;
